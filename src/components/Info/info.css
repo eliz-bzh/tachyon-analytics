@@ -1,0 +1,13 @@
+.who-we-are {
+    padding-bottom: 60px;
+}
+.who-we-are h3 {
+    font-weight: 400;
+    font-size: 32px;
+    color: #008538;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.pr-4, .px-4 {
+    padding-right: 1.5rem!important;
+}

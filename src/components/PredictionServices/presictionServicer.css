@@ -1,0 +1,52 @@
+.banner {
+    clear: both;
+    display: inline-block;
+    width: 100%;
+}
+
+.banner video {
+    display: block;
+    object-fit: cover;
+    width: 100%;
+    height: 450px;
+}
+
+video {
+    filter: opacity(50%);
+}
+
+.banner-text {
+    width: 540px;
+    height: 342px;
+    padding: 0;
+    position: absolute;
+    z-index: 9;
+    top: 30%;
+    bottom: 0px;
+    right: 50%;
+    margin-right: -270px;
+    text-align: center;
+}
+
+.banner-text p {
+    font-size: 30px;
+    color: #333;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 36px;
+}
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+.banner-text button {
+    color: #fff;
+    background-color: #008538;
+    padding: 6px 12px;
+    display: inline-block;
+    text-decoration: none;
+    border: none;
+}
+.banner-text button:hover {
+    opacity: .8;
+}

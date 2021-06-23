@@ -1,0 +1,32 @@
+.counters {
+    background: #008538;
+    padding: 20px 0;
+}
+.counters .block {
+    border-left: #66be8b solid 1px;
+    color: #fff;
+    padding: 25px 0;
+}
+.counters .block img {
+    width: auto;
+    height: 50px;
+    margin-bottom: 20px;
+}
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+.counters .block:first-child {
+    border: none;
+}
+.counters .block h5 {
+    font-size: 33px;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+.counters .block h5 span {
+    font-size: 33px;
+}
+.counters .block span {
+    font-size: 14px;
+}
